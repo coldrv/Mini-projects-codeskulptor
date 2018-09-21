@@ -184,9 +184,7 @@ def hit():
     else:
         outcome ='Hit deal for another game'
         
-    # if the hand is in play, hit the player
    
-    # if busted, assign a message to outcome, update in_play and score
        
 def stand():
     global outcome, in_play,score
@@ -208,15 +206,10 @@ def stand():
             score+=1
             in_play = False
             
-    
-    # if hand is in play, repeatedly hit dealer until his hand has value 17 or more
-
-    # assign a message to outcome, update in_play and score
+   
 
 # draw handler    
 def draw(canvas):
-    # test to make sure that card.draw works, replace with your code below
-    
     
     player_hand.drawhand(canvas,[25,185], False)
     dealer_hand.drawhand(canvas,[25,385], in_play)
@@ -242,6 +235,3 @@ frame.set_draw_handler(draw)
 # get things rolling
 deal()
 frame.start()
-
-
-# remember to review the gradic rubric
