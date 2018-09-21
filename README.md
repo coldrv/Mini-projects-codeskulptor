@@ -1,2 +1,2 @@
 # Mini-projects-codeskulptor
-basic blackjack game in python using codeskulptor libraries
+Simple games developed using python and codeskulptor.
